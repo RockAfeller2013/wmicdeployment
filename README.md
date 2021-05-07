@@ -5,3 +5,4 @@
 1. Runas /user:DomainAdminAccount@DOMAIN cmd
 2. type wmic
 3. /node::@c:\computers.txt product call install true,",c:\PathToYour\File.msi
+4. You can create a list of computers using arp -a
